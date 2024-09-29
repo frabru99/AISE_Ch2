@@ -78,7 +78,6 @@ def train_predict(df_all_data, df_all_train_index, seasonality_params=seasonalit
         )
 
     predicted = model.predict(df_test)
-    print("ciao")
     return predicted, df_train, df_test
 
 
